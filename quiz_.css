@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(251, 255, 247);
+}
+.choice{
+  width:100%;
+  margin-bottom: 5px;
+  display: flex;
+  font-size: 19px;
+  border:2px solid rgb(204, 195, 195);
+  background-color: white;
+}
+.hover-effect:hover{
+  cursor: pointer;
+  background-color: rgb(241, 238, 238);
+}
+.correct{
+  background-color: rgb(80, 206, 80);
+}
+.incorrect{
+  background-color: rgb(247, 56, 56);
+}
+.choice-number{
+  padding: 15px 25px;
+  background-color: rgb(154, 214, 126);
+  color: white;
+}
+.choice-text{
+  padding: 15px;
+  width:100%;
+}
+
+#stats{
+  display: flex;
+  justify-content:space-between;
+  font-size: 15px;
+}
+#score,#questionNumber{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(58, 57, 57);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Questions</title>
+  <link rel="stylesheet" href="styles.css"> 
+  <link rel="stylesheet" href="quiz_.css"> 
+  
+</head>
+<body>
+  <div class="container">
+    <div id="quiz-game" style="width:60%" class="justify-center flex-column" >
+      <div id="stats">
+      <div id="questionPrefix">
+        Question <br> <span id="questionNumber">1/2</span>
+      </div>
+      <div id="scorePrefix">
+        Score <br><span id="score">0</span>
+      </div>
+      </div>
+      <br>
+      <h2 id="question"> What is answer of the question?</h2> 
+        <div class="choice hover-effect">
+          <p class="choice-number" >A</p>
+          <p class="choice-text" data-number="1">Choice A</p>
+        </div>
+        <div class="choice hover-effect">
+          <p class="choice-number">B</p>
+          <p class="choice-text" data-number ="2">Choice B</p>
+        </div>
+        <div class="choice hover-effect">
+          <p class="choice-number">C</p>
+          <p class="choice-text" data-number="3">Choice C</p>
+        </div>
+        <div class="choice hover-effect">
+          <p class="choice-number">D</p>
+          <p class="choice-text" data-number="4" >Choice D</p>
+        </div>
+     </div>
+  </div>
+  <script src="quiz_2.js"></script>
+</body>
+</html>
